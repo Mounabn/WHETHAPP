@@ -1,0 +1,19 @@
+#citySelect {
+    overflow: hidden;
+    overflow-block: hidden;
+  
+   height: auto;
+   
+  }
+ 
+  .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      justify-content: center;
+      width: 100%;
+  }
+  .container > input, select, div {
+      width: 80%;
+  }
