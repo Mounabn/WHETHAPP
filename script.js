@@ -78,7 +78,7 @@ function renderSuggestions(suggestions) {
 
 
 function getWeather(city, iso2) {
-    const apiKey = '92180e6f56097141476ce31f4c222c5c'; 
+    const apiKey = //'92180e6f56097141476ce31f4c222c5c';// 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},${iso2}&appid=${apiKey}`; 
     fetch(apiUrl)
         .then(response => response.json())
